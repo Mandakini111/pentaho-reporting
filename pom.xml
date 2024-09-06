@@ -50,7 +50,7 @@
     <wsdl4j.version>1.6.2</wsdl4j.version>
     <infobright.version>3.4</infobright.version>
     <mstor.version>0.9.13</mstor.version>
-    <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+    <javax.servlet-api.version>4.0.4</javax.servlet-api.version>
     <plugin.checkstyle.version>2.17</plugin.checkstyle.version>
     <jaxrpc.version>1.1</jaxrpc.version>
     <commons-dbcp2.version>2.9.0</commons-dbcp2.version>
@@ -2346,8 +2346,8 @@
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
         <version>${javax.servlet-api.version}</version>
         <exclusions>
           <exclusion>
